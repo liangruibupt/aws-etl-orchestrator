@@ -505,3 +505,15 @@ This project is licensed under the MIT-No Attribution (MIT-0) license.
 A copy of the License is located at
 
 [https://spdx.org/licenses/MIT-0.html](https://spdx.org/licenses/MIT-0.html)
+
+
+# Trouble shooting
+## Join Marketing And Sales Data report Unable to infer schema for Parquet. It must be specified manually.;
+
+```
+You should upload the sales sample data to
+aws-etl-orchestrator-demo-raw-data/sales and marketing sample data to
+aws-etl-orchestrator-demo-raw-data/marketing
+```
+
+More details, please check [https://github.com/aws-samples/aws-etl-orchestrator/issues/5](https://github.com/aws-samples/aws-etl-orchestrator/issues/5)

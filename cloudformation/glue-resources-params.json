@@ -1,0 +1,14 @@
+[
+  {
+    "ParameterKey": "S3ETLScriptPath",
+    "ParameterValue": "s3://aws-etl-orchestrator-demo/etl-scripts"
+  },
+  {
+    "ParameterKey": "S3ETLOutputPath",
+    "ParameterValue": "s3://aws-etl-orchestrator-demo/etl-outputs"
+  },
+  {
+    "ParameterKey": "SourceDataBucketName",
+    "ParameterValue": "aws-etl-orchestrator-demo-raw-data"
+  }
+]
